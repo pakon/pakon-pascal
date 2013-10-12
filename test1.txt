@@ -1,0 +1,25 @@
+(* это комментарий *)
+program
+	a := ((5*10) + 20) / (not 0);
+
+	repeat
+	begin
+		a := a + 1;
+		b := a - 10;
+	end;
+	until a > 75;
+
+	if a < 75 then
+		a := 26 >> (20 / 10);
+	else
+		a := 0;
+	fi;
+
+	begin
+		if a = 0 then
+			c := 10 or 0;
+		else
+			a := 50;
+		fi;
+	end;
+end.

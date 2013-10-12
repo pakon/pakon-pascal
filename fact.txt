@@ -1,0 +1,15 @@
+(* вычисление факториала *)
+program
+	i := 1;
+	fact := 1;
+	max := 11;
+
+	repeat
+	begin
+		i := i + 1;
+		fact := fact * i;
+	end;
+	until (i > max) or (i = max);
+	p := 10;
+
+end.
